@@ -5,11 +5,14 @@ This project is a full-stack web application designed to generate and manage end
 
 # Frontend:
 React.js: Dynamic UI rendering and user input handling
+
 Axios: For making API requests to the backend
 
 # Backend:
 Django: Robust server-side framework for handling business logic
+
 Django REST Framework (DRF): API creation and JSON serialization
+
 CORS Headers: Enables secure development with React
 
 # Database:
@@ -29,28 +32,31 @@ Ideal for enterprise administrators who need a centralized and user-friendly too
 
 # Steps to Setup:
 
-1. Create a Virtual Environment
-   python -m venv venv
-   
-2. Activate the Environment
-   On Windows:   venv\Scripts\activate
-   On Mac/Linux:   source venv/bin/activate
-   
-3. Install Dependencies
-  
-4.  Run Migrations
-   python manage.py makemigrations
-   python manage.py migrate
+Create a Virtual Environment:   
+python -m venv venv
 
-5. Run the Django Development Server
-   python manage.py runserver
+Activate the Environment On Windows:
+venv\Scripts\activate
 
-6. Navigate to the React Directory
-   cd gp-generator-frontend 
+Activate the Environment On Mac/Linux:
+source venv/bin/activate
 
-7. Install Node Modules
-   npm install
+Install Dependencies
 
-8. Start the React Development Server
-   npm start
-   React app will run on: http://localhost:3000/
+Run Migrations:
+python manage.py makemigrations
+python manage.py migrate
+
+Run the Django Development Server:   
+python manage.py runserver
+
+Navigate to the React Directory:   
+cd gp-generator-frontend 
+
+Install Node Modules:   
+npm install
+
+Start the React Development Server:   
+npm start
+
+React app will run on: http://localhost:3000/
