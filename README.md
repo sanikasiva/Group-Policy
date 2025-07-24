@@ -26,3 +26,31 @@ Export .policyrules file for download
 
 # Use Case:
 Ideal for enterprise administrators who need a centralized and user-friendly tool to configure and deploy Group Policy settings to endpoint operating systems in a secure and consistent manner.
+
+# Steps to Setup:
+
+1. Create a Virtual Environment
+   python -m venv venv
+   
+2. Activate the Environment
+   On Windows:   venv\Scripts\activate
+   On Mac/Linux:   source venv/bin/activate
+   
+3. Install Dependencies
+  
+4.  Run Migrations
+   python manage.py makemigrations
+   python manage.py migrate
+
+5. Run the Django Development Server
+   python manage.py runserver
+
+6. Navigate to the React Directory
+   cd gp-generator-frontend 
+
+7. Install Node Modules
+   npm install
+
+8. Start the React Development Server
+   npm start
+   React app will run on: http://localhost:3000/
